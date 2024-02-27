@@ -69,7 +69,7 @@
               <?= $element['description'] ?>
             </td>
             <td>
-              <?= $element['parking'] ?>
+              <?= ($element['parking']) ? 'Si' : 'No' ?>
             </td>
             <td>
               <?= $element['vote'] ?>
